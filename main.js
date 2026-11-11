@@ -9,7 +9,7 @@ const startGame = async () => {
   const input = form.askInput.value;
 
   if (input.trim() === "") {
-    responseField.textContent = "Ohh, seriously?";
+    responseField.textContent = "seriously?";
 
     ball.style.backgroundImage = `url(./media/sticker${random(1, 4)}.gif)`;
     console.log(ball.style.backgroundImage);
